@@ -10,7 +10,8 @@ import java.util.Optional;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class OperatorsTest {
+// https://projectreactor.io/docs/core/release/reference/#which.create
+public class CreateNewSequenceTest {
   @Test
   public void newSequenceFrom_just_optional() {
     //that emits a T, and I already have: just
